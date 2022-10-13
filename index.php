@@ -1,8 +1,6 @@
 <?php
 require 'vendor/autoload.php';
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
 
-use GPIStepV\Test;
-
-$rr = new Test();
-
-$rr->blalba();
+require 'public/index.php';
