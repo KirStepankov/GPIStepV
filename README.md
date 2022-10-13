@@ -11,8 +11,9 @@ Curl/Curl, Monolog/Monolog, Vlucas/Phpdotenv, Symfony/Routing
 
 # Документация
 Инициализируем модель с передачей сайта
+<pre>
 $requestModel = new RPSModelRequest('http://stepv.ru/');
-
+</pre>
 Заполняем модель
 <pre>
 $requestModel
